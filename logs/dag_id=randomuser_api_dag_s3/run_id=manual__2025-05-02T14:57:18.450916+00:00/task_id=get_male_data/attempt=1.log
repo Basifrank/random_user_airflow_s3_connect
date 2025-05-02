@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-02T14:57:21.561106","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-02T14:57:21.561630","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/random_user_api_dag_s3.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-02T14:57:25.173910Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.174043Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.174090Z","level":"info","event":"Current task name:get_male_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.174122Z","level":"info","event":"Dag name:randomuser_api_dag_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.674471","level":"info","event":"Done. Returned value was:   male_gender\n0        male\n1        male\n2        male\n3        male\n4        male\n5        male","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-02T14:57:25.674711","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01969180-7a84-7bd2-abf5-c460925c49a1'), task_id='get_male_data', dag_id='randomuser_api_dag_s3', run_id='manual__2025-05-02T14:57:18.450916+00:00', try_number=1, map_index=-1, hostname='61dc484f70aa', context_carrier={}, task=<Task(PythonOperator): get_male_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 5, 2, 14, 57, 21, 220121, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.700322Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.700429Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:25.700486Z","level":"info","event":"Task operator:<Task(PythonOperator): get_male_data>","chan":"stdout","logger":"task"}

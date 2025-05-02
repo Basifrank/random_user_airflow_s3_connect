@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-02T14:55:26.889369","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-02T14:55:26.889707","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/random_user_api_dag_s3.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-02T14:55:27.186578Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.186666Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.186694Z","level":"info","event":"Current task name:get_male_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.186718Z","level":"info","event":"Dag name:randomuser_api_dag_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.704249","level":"info","event":"Done. Returned value was:   male_gender\n0        male\n1        male\n2        male\n3        male\n4        male\n5        male\n6        male\n7        male","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-02T14:55:27.704513","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0196917e-b8ae-7254-b272-814296d80ef4'), task_id='get_male_data', dag_id='randomuser_api_dag_s3', run_id='manual__2025-05-02T14:55:23.287743+00:00', try_number=1, map_index=-1, hostname='61dc484f70aa', context_carrier={}, task=<Task(PythonOperator): get_male_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 5, 2, 14, 55, 26, 599747, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.739814Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.739906Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:55:27.739937Z","level":"info","event":"Task operator:<Task(PythonOperator): get_male_data>","chan":"stdout","logger":"task"}

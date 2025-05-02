@@ -1,0 +1,14 @@
+{"timestamp":"2025-05-02T14:57:27.050286","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-02T14:57:27.050680","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/random_user_api_dag_s3.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-02T14:57:27.445837Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:27.445962Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:27.446013Z","level":"info","event":"Current task name:write_male_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:27.446044Z","level":"info","event":"Dag name:randomuser_api_dag_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:27.910642","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py:147: DeprecationWarning: Using Variable.get from `airflow.models` is deprecated.Please use `from airflow.sdk import Variable` instead\n  warnings.warn(\n","logger":"py.warnings"}
+{"timestamp":"2025-05-02T14:57:27.911843","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-02T14:57:27.920466","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-02T14:57:27.926142","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-02T14:57:28.740944","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-02T14:57:28.758411Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:28.758526Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-02T14:57:28.758574Z","level":"info","event":"Task operator:<Task(PythonOperator): write_male_data>","chan":"stdout","logger":"task"}
